@@ -45,12 +45,12 @@ p{
 
 .btn{
   display: inline-block;
-  border: #007aff 2px solid;
+  border: #007bffbd 2px solid;
   color: #fff;
   text-transform: uppercase;
   margin-top: 20px;
-  padding: 5px 25px;
-  font-size: 1.2rem;
+  padding: 5px 15px;
+  font-size: 1rem;
   font-weight: 500;
   letter-spacing: .1rem;
   transition: .5s ease;
@@ -58,7 +58,7 @@ p{
 
 .btn:hover{
   position: relative;
-  background-color: #007aff;
+  background-color: #007bffa2;
   color: white;
 }
 
@@ -71,6 +71,9 @@ p{
 .brand span{
   color: #007aff;
 }
+
+
+/* Home Section */
 
 #home{
   background: url(https://images.pexels.com/photos/777001/pexels-photo-777001.jpeg?cs=srgb&dl=pexels-xxss-is-back-777001.jpg&fm=jpg) no-repeat center center/cover;
@@ -90,8 +93,7 @@ p{
 #home h1{
   display: block;
 	width: fit-content;
-	font-size: 4rem;
-  opacity: .8;
+	font-size: 3rem;
   color: transparent;
 	position: relative;
   animation: text_reveal .3s ease forwards;
@@ -116,6 +118,9 @@ p{
 #home h1:nth-child(1) span{animation-delay: 1s;}
 #home h1:nth-child(2) span{animation-delay: 2s;}
 #home h1:nth-child(3) span{animation-delay: 3s;}
+
+
+/* End of Home Section */
 
 
 /* Services Section */
@@ -433,7 +438,6 @@ p{
 
   100%{
     color: #007aff;
-    font-size: 4.5rem;
   }
   
 }
